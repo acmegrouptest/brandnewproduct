@@ -34,12 +34,13 @@ $nav-height: 3.5rem !default
 
 .nav-item a,
 a.nav-item
-  color: $text-light
+  color: #162745
+  font-weight: 600
   &:hover
-    color: $link-hover
+    color: #162745
   // Modifiers
   &.is-active
-    color: $link-active
+    color: #162745
   &.is-tab
     border-bottom: 1px solid transparent
     border-top: 1px solid transparent
@@ -48,11 +49,9 @@ a.nav-item
     padding-right: 1rem
     padding-top: calc(0.5rem - 1px)
     &:hover
-      border-bottom-color: $primary
       border-top-color: transparent
     &.is-active
-      border-bottom: 3px solid $primary
-      color: $primary
+      color: #162745
       padding-bottom: calc(0.5rem - 3px)
   // Responsiveness
   +desktop
@@ -113,6 +112,10 @@ a.nav-item
 
 .nav
   align-items: stretch
+  height: 68px
+  border-bottom: 1px solid #eeeeee
+  font-family: 'Montserrat', sans-serif
+  color: #162745
   background-color: $white
   display: flex
   min-height: $nav-height
