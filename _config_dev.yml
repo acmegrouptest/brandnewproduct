@@ -2,7 +2,7 @@ title: Brand New Product
 email: acmegrouptest@gmail.com
 description:
   We’ve launched a new product. Even if it is easy-to-use, we have decided to create a documentation website!
-baseurl: "/documentation"
+baseurl: "/documentation_test"
 url: "http://locahost:4000"
 
 
