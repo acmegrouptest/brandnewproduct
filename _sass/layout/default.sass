@@ -1,13 +1,14 @@
 .container
   max-width: 940px
-  +touch
-    padding: 0 10px
 
 .front-page
   background-color: $grey-light
   +mobile
     margin-top: 80px
-
+  .container
+    +touch
+      padding: 0 20px
+      
 .introduction
   margin-bottom: 64px
   h1
