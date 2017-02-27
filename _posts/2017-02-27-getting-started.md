@@ -30,8 +30,6 @@ window.onload = function() {
 
 ```
 
-[Grab the complete example source code]: http://www.google.com
-
 ## Using the CARTO.js LibraryPermalink
 
 CARTO.js can be used to embed a visualization you have designed using CARTO’s user interface, or to dynamically create visualizations from scratch, using your data. If you want to create new maps on your webpage, jump to Creating a visualization from scratch. If you already have maps on your webpage and want to add CARTO visualizations to them, read Adding CARTO layers to an existing map.
