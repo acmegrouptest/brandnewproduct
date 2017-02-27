@@ -115,9 +115,9 @@ a.nav-item
   height: 68px
   border-bottom: 1px solid $grey-dark
   font-family: $family-open-sans
-  font-weight: 400
-  color: $blue-dark
+  color: #162745
   background-color: $white
+  font-weight: 400
   display: flex
   min-height: $nav-height
   position: relative
@@ -132,13 +132,6 @@ a.nav-item
   // Modifiers
   &.has-shadow
     box-shadow: 0 2px 3px rgba($black, 0.1)
-  a
-    color: $blue-dark
-    font-family: $family-open-sans
-    font-weight: 600
-    font-size: 13px
-    line-height: 20px
-
 
 .submenu 
   height: 68px
@@ -149,24 +142,35 @@ a.nav-item
   background: $grey-light
   border-bottom: 1px solid $grey-dark
   a
+    font-family: $family-open-sans
     font-weight: 400
-    &.active
+    &.is-active
+      font-weight: 600
+
+
+.nav
+  a
+    color: $blue-dark
+    font-family: $family-open-sans
     font-weight: 600
+    font-size: 13px
+    line-height: 20px
+    &:hover
+      color: $grey-darker
 
 
 .nav-toggle
   height: 68px
   width: 68px
-  color: $blue-dark
+  color: $blue-regular
 
 .nav-toggle:hover
   background: none
 
 .nav-toggle.is-active 
   span
-    color: $blue-dark
-    background-color: $blue-dark
-
+    color: $blue-regular
+    background-color: $blue-regular
 
 .nav-menu
   +mobile

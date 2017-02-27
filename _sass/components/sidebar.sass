@@ -14,7 +14,7 @@
     // Modifiers
     &.is-active
       background-color: $link
-      color: $link
+      color: $link-invert
   li
     ul
       border-left: 1px solid $border
@@ -22,11 +22,50 @@
       padding-left: 0.75em
 
 .menu-label
-  color: $text-light
-  font-size: 0.8em
-  letter-spacing: 0.1em
-  text-transform: uppercase
+  font-family: $family-open-sans
+  text-transform: none
+  color: $grey-lighter
+  font-weight: 200
+  font-size: 13px
+  line-height: 24px
+  margin-bottom: 20px
   &:not(:first-child)
     margin-top: 1em
   &:not(:last-child)
     margin-bottom: 1em
+
+
+.submenu-label
+  font-family: $family-open-sans
+  color: $grey-darker
+  font-weight: 400
+  font-size: 13px
+  line-height: 24px
+  margin-bottom: 10px
+  span
+    margin-right: 8px
+
+.menu-list
+  font-family: $family-open-sans
+  color: $grey-darker
+  font-weight: 400
+  font-size: 13px
+  line-height: 24px
+  li
+    a
+      font-family: $family-open-sans
+      color: $grey-darker
+      font-weight: 400
+      font-size: 13px
+      line-height: 24px
+      padding: 0px 0px 0px 24px
+      &:hover
+        background: none
+        color: $blue-light
+      &.active
+        font-family: $family-open-sans
+        color: $blue-regular
+        font-weight: 600
+        font-size: 13px
+        line-height: 24px
+        padding: 0px 0px 0px 24px
