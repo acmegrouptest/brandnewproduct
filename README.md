@@ -35,10 +35,7 @@ Please follow these instructions in order to update or create new posts:
   (make sure you include the following metadata, 
   you can find the form to fill just below your post editor)
 
-		| Key           | Value         |
-		| ------------- |:-------------:|
-		| layout        | post          | 
-		| category      | documentation | 
+  ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488186496/post-editor-screenshot_c7jfm0.png "Post Editor Screenshot")
 
   6. Once you have finished: 
   ``` ruby end-posting.rb ```
