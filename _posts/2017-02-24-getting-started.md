@@ -52,3 +52,20 @@ We have also made it easy for you to build maps using the mapping library of you
 
 > CARTO.js automatically includes dependencies from other mapping libraries (such as Leaflet, jQuery, Mustache, Underscore, and so on). You do not have to manually include these libraries, or worry about other mapping library version control, when you are using CARTO.js. If you need to see which version of other mapping libraries are included, view the vendor folder for each CARTO.js release.
 
+
+## Creating a Visualization from ScratchPermalink
+
+This is the easiest way to quickly get a CARTO map onto your webpage. Use this method when there is no map in your application, and you want to add the visualization to hack over it. CARTO.js handles all the details of loading a map interface, basemap, and your CARTO visualization.
+You can start by giving CARTO.js the DIV ID from your HTML where you want to place your map, and the viz.json URL of your visualization (which you can get from the Publish your map options).
+
+## Next steps
+
+Once the form, with the stored payment token, is submitted to your server, you'll want to use the payment details just collected. Usually this means one of three actions:
+
+> ##### General Concepts
+> Give your mobile or tablets apps the power of interactive maps.
+
+
+## Questions?
+
+We're always happy to help with code or other questions you might have! Search our site for more information or [send us an email](https://acmegrouptest.github.io/brandnewproduct/)!
