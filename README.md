@@ -27,16 +27,17 @@ Please follow these instructions in order to update or create new posts:
 
   4. Open the [Post Admin tool](http://localhost:4000/admin)
 
-  5. Create and preview your post 
+  5. Create and preview your post.
+
   You can paste markdown files content or plain text and use the editor to style.
   (make sure you include the following metadata, 
   you can find the form to fill just below your post editor)
 
   ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488192128/post-editor-screenshot_f6r16k.png "Post Editor Screenshot")
 
-  6. Once you have finished, go back to the terminal and post: 
+  6. Once you have finished, go back to the terminal
   (Ask for access to publish sending an email to [the account manager](mailto:cillassubira@mail.com) including your github username) and then run:
-  
+
   ``` ruby end-posting.rb ```
 
   7. Let's check if everything worked properly! 
