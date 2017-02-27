@@ -113,15 +113,17 @@ a.nav-item
 .nav
   align-items: stretch
   height: 68px
-  border-bottom: 1px solid #eeeeee
-  font-family: 'Montserrat', sans-serif
-  color: #162745
+  border-bottom: 1px solid $grey-dark
+  font-family: $family-montserrat
+  font-weight: 400
+  color: $blue-dark
   background-color: $white
   display: flex
   min-height: $nav-height
   position: relative
   text-align: center
   z-index: 2
+  margin-bottom: 0px
   & > .container
     align-items: stretch
     display: flex
@@ -130,3 +132,39 @@ a.nav-item
   // Modifiers
   &.has-shadow
     box-shadow: 0 2px 3px rgba($black, 0.1)
+  a
+    color: $blue-dark
+    font-family: $family-montserrat
+    font-weight: 600
+    font-size: 13px
+    line-height: 20px
+
+
+.submenu 
+  height: 68px
+  margin-bottom: 88px
+  font-family: $family-montserrat
+  color: $blue-dark
+  font-weight: 400
+  background: $grey-light
+  border-bottom: 1px solid $grey-dark
+
+
+.nav-toggle
+  height: 68px
+  width: 68px
+  color: $blue-dark
+
+.nav-toggle:hover
+  background: none
+
+.nav-toggle.is-active 
+  span
+    color: $blue-dark
+    background-color: $blue-dark
+
+
+.nav-menu
+  +mobile
+    box-shadow: none
+    border-bottom: 1px solid $grey-dark
