@@ -1,13 +1,13 @@
 Acme Group Test
 ===============
 
-For customers:
+## *For customers:*
 
 Acme Group is presenting a brand new product. 
-Find all the information you need in [here](https://acmegrouptest.github.io/brandnewproduct/)
+Find all the information you need in [here](https://acmegrouptest.github.io/brandnewproduct/).
 
 
-For Acme Group crew:
+## *For Acme Group crew:*
 
 As you know an updated documentation for a new product really makes the difference for our customers.
 
