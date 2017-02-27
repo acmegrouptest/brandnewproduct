@@ -12,23 +12,28 @@ Find all the documentation you need in [here](https://acmegrouptest.github.io/br
 As you know an updated documentation for a new product really makes the difference for our customers.
 
 Please follow these instructions in order to update or create new posts:
- (Ask for access to publish sending an email to [the account manager](mailto:cillassubira@mail.com) including your github username)
+
+(Ask for access to publish sending an email to [the account manager](mailto:cillassubira@mail.com) including your github username)
 
   1. Open your terminal and clone the repository:
   
   ```git clone https://github.com/acmegrouptest/brandnewproduct.git```
 
-  2. Move to the folder and as usual:
+  2. Move to the folder:
+  
+  ```cd brandnewproduct```
 
+  3. And then:
+  
   ```bundle install```
 
-  3. Lets run our server:
+  4. Lets run our server:
 
   ``` jekyll serve ```
 
-  4. Open the [Post Admin tool](http://localhost:4000/admin/collections/posts) in a new tab.
+  5. Open the [Post Admin tool](http://localhost:4000/admin/collections/posts) in a new tab.
 
-  5. Create and preview your post.
+  6. Create and preview your post.
 
   You can paste markdown files content or plain text and use the editor to style.
   (Make sure you include the following metadata, 
@@ -40,12 +45,12 @@ Please follow these instructions in order to update or create new posts:
 
   Save your post!
 
-  6. Once you have finished, go back to the terminal and press CTRL+C to stop your server
+  7. Once you have finished, go back to the terminal and press CTRL+C to stop your server
   and then:
 
   ``` ruby publish.rb ```
 
-  7. Let's check if everything worked properly!
+  8. Let's check if everything worked properly!
   [Go to Acme Group Docs Page](https://acmegrouptest.github.io/brandnewproduct/)
   (Some seconds may be need to see the latest updates.)
 
