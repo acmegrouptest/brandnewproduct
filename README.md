@@ -29,7 +29,7 @@ Please follow these instructions in order to update or create new posts:
 
   4. Open your browser and paste this url:
 
-  ```http://localhost:4000/admin```
+  [Post Admin tool](http://localhost:4000/admin)
 
   5. Create and preview your post 
   (make sure you include the following metadata, 
