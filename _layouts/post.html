@@ -2,18 +2,21 @@
 layout: default
 ---
 
-<div class="container" style="max-width: 940px">
-<div class="columns">
-<div class="column is-one-quarter">
-	{% include sidebar.html %}
-</div>
-<div class="column">
-<article class="main">
+<div class="page-blog">
+	<div class="container">
+		<div class="columns post-page">
+			<div class="column is-one-quarter is-hidden-touch">
 
+				{% include sidebar.html %}
 
-{{content}}
+			</div>
+			<div class="column content-space">
+				<article class="main">
 
-</article>
-</div>
-</div>
+					{{content}}
+
+				</article>
+			</div>
+		</div>
+	</div>
 </div>
