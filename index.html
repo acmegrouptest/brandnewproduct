@@ -2,85 +2,51 @@
 layout: default
 ---
 {% include subnav.html %}
+<div class="front-page">
+  <div class="container">
+  <div class="columns">
+    <div class="column introduction">
+      <h1>Documentation</h1>
+      <p>Learn all about the CARTO Engine. An Open Source tool that enables you to use several APIs to build advanced, dynamic geospatial datasets and scalable maps for your own applications.</p>
+      <input type="text" class="form-control" placeholder="Search the docs">
+    </div>
+  </div>
 
-<div class="container" style="max-width: 940px">
-<div class="columns">
-  <div class="column" style="background-color: blue;">
-    <h1>Documentation</h1>
-    <h2>Learn all about the CARTO Engine. An Open Source tool that enables you to use several APIs to build advanced, dynamic geospatial datasets and scalable maps for your own aplications.</h2>
+
+  <div class="columns">
+   <div class="column">
+    <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <h2>Engine</h2>
+              <p>An Open Source tool that enables you to use several APIs to build advanced, dynamic geospatial datasets and scalable maps for your own applications.</p>
+              <button class="button frontpage-card"><a href="{{ site.categories['documentation'].first.url | prepend: site.baseurl }}"><h4>CARTO.js</h4></a></button>
+          </div>
+        </div>
+    </div>
+   </div>
+    <div class="column">
+    <div class="card">
+        <div class="card-content frontpage-card">
+          <div class="content">
+            <h2>Location Data Services</h2>
+            <p>Employ our native SDKs to obtain maps and services on native applications, using them on the Web with open source JavaScript or 3rd party libraries.</p>
+            <button class="button frontpage-card"><a href="{{ site.categories['documentation'].first.url | prepend: site.baseurl }}"><h4>Routing</h4></a></button>
+          </div>
+        </div>
+    </div>
+   </div>
+    <div class="column">
+    <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <h2>Builder</h2>
+            <p>Unleash the power of location intelligence with self-service, actionable dashboards you can share with your organization.</p>
+            <button class="button frontpage-card"><a href="{{ site.categories['documentation'].first.url | prepend: site.baseurl }}"><h4>Static</h4></a></button>
+          </div>
+        </div>
+    </div>
+   </div>
+  </div>
   </div>
 </div>
-
-
-<div class="columns">
- <div class="column">
- 	<div class="card">
-  		<div class="card-content">
-    		<div class="content">
-      		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      		Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-      		<a>#css</a> <a>#responsive</a>
-      		<br>
-      		<small>11:09 PM - 1 Jan 2016</small>
-    		</div>
-  		</div>
-	</div>
- </div>
-  <div class="column">
- 	<div class="card">
-  		<div class="card-content">
-    		<div class="content">
-      		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      		Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-      		<a>#css</a> <a>#responsive</a>
-      		<br>
-      		<small>11:09 PM - 1 Jan 2016</small>
-    		</div>
-  		</div>
-	</div>
- </div>
-  <div class="column">
- 	<div class="card">
-  		<div class="card-content">
-    		<div class="content">
-      		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      		Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-      		<a>#css</a> <a>#responsive</a>
-      		<br>
-      		<small>11:09 PM - 1 Jan 2016</small>
-    		</div>
-  		</div>
-	</div>
- </div>
-</div>
-</div>
-
-<!-- <ul>
-{% for category in site.categories limit: 3 %}
-		<li>
-	    <a href="{{ site.posts.first.url | prepend: site.baseurl }}">
-	          {{ category | first }}
-	      </a>
-	     </li>
-{% endfor %}
-</ul> -->
-
-
-<!-- 
-{% for category in site.categories %}
-<ul>
-<h2>{{ category | first }}</h2>
-	{% for posts in category %}
-	   {% for post in posts %}
-	     {% if post.url %}
-	      <li>
-	        <a href="{{ post.url }}">
-	          {{ post.title }}
-	        </a>
-	      </li>
-	    {% endif %}
-	  {% endfor %}
-	{% endfor %}
-</ul>
-{% endfor %} -->
-
