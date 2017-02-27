@@ -33,12 +33,14 @@ Please follow these instructions in order to update or create new posts:
 
   ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488186496/post-editor-screenshot_c7jfm0.png "Post Editor Screenshot")
 
-  6. Once you have finished, go back to the terminal and post: 
+  6. Once you have finished, go back to the terminal and post[^1]: 
   ``` ruby end-posting.rb ```
 
   7. Let's check if everything worked properly! 
   [Go to Acme Group Docs Page](https://acmegrouptest.github.io/brandnewproduct/)
 
+[^1]:
+Ask for access to publish sending an email to [the account manager](mailto:cillassubira@mail.com) 
 
 
 
