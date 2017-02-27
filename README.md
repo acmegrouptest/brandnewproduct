@@ -36,9 +36,12 @@ Please follow these instructions in order to update or create new posts:
   6. Create and preview your post.
 
   You can paste markdown files content or plain text and use the editor to style.
+
   (Make sure you include the following metadata, 
-  you can find the form to fill just below your post editor)
+  you can find the form to fill just below your post editor, see image below)
+
   Layout stands for the template to be used to publish.
+
   Category is the way the content is classified. (Documentation category is the only one for now)
 
   ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488192128/post-editor-screenshot_f6r16k.png "Post Editor Screenshot")
@@ -52,7 +55,8 @@ Please follow these instructions in order to update or create new posts:
 
   8. Let's check if everything worked properly!
   [Go to Acme Group Docs Page](https://acmegrouptest.github.io/brandnewproduct/)
-  (Some seconds may be need to see the latest updates.)
+  
+  (Some extra seconds may be need to see the latest updates)
 
 
 
