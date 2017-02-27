@@ -46,7 +46,8 @@ Please follow these instructions in order to update or create new posts:
 
   ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488192128/post-editor-screenshot_f6r16k.png "Post Editor Screenshot")
 
-  Save your post!
+  Preview your post.
+  Is it ok? Then save it!
 
   7. Once you have finished, go back to the terminal and press CTRL+C to stop your server
   and then:
@@ -57,6 +58,8 @@ Please follow these instructions in order to update or create new posts:
   [Go to Acme Group Docs Page](https://acmegrouptest.github.io/brandnewproduct/)
   
   (Some extra seconds may be need to see the latest updates)
+
+  Edit and delete posts is also available using the admin tool, you just need to repeat the same process to publish.
 
 
 
