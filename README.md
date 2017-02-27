@@ -4,9 +4,7 @@ Acme Group Test
 For customers:
 
 Acme Group is presenting a brand new product. 
-Find all the information you need in the link below:
-
-[Acme Group Docs Link](https://acmegrouptest.github.io/brandnewproduct/)
+Find all the information you need in [here](https://acmegrouptest.github.io/brandnewproduct/)
 
 
 For Acme Group crew:
@@ -27,9 +25,7 @@ Please follow these instructions in order to update or create new posts:
 
   ``` ruby start-posting.rb ```
 
-  4. Open your browser and paste this url:
-
-  [Post Admin tool](http://localhost:4000/admin)
+  4. Open the [Post Admin tool](http://localhost:4000/admin)
 
   5. Create and preview your post 
   (make sure you include the following metadata, 
@@ -37,11 +33,11 @@ Please follow these instructions in order to update or create new posts:
 
   ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488186496/post-editor-screenshot_c7jfm0.png "Post Editor Screenshot")
 
-  6. Once you have finished: 
+  6. Once you have finished, go back to the terminal and post: 
   ``` ruby end-posting.rb ```
 
   7. Let's check if everything worked properly! 
-  [Acme Group Docs Link](https://acmegrouptest.github.io/brandnewproduct/)
+  [Go to Acme Group Docs Page](https://acmegrouptest.github.io/brandnewproduct/)
 
 
 
