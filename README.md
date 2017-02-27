@@ -40,7 +40,7 @@ Please follow these instructions in order to update or create new posts:
   6. Once you have finished: 
   ``` ruby end-posting.rb ```
 
-  7. Let's check if everything worked properly: 
+  7. Let's check if everything worked properly! 
   [Acme Group Docs Link](https://acmegrouptest.github.io/brandnewproduct/)
 
 
