@@ -4,7 +4,7 @@ Acme Group Test
 ## *For customers:*
 
 Acme Group is presenting a brand new product. 
-Find all the information you need in [here](https://acmegrouptest.github.io/brandnewproduct/).
+Find all the documentation you need in [here](https://acmegrouptest.github.io/brandnewproduct/).
 
 
 ## *For Acme Group crew:*
@@ -13,7 +13,7 @@ As you know an updated documentation for a new product really makes the differen
 
 Please follow these instructions in order to update or create new posts:
 
-  1. Open your terminal and create a folder to clone the repository:
+  1. Open your terminal and clone the repository:
   
   ```git clone https://github.com/acmegrouptest/brandnewproduct.git```
 
@@ -35,7 +35,8 @@ Please follow these instructions in order to update or create new posts:
   ![Post Editor Screenshot](http://res.cloudinary.com/dkq1dgypu/image/upload/v1488192128/post-editor-screenshot_f6r16k.png "Post Editor Screenshot")
 
   6. Once you have finished, go back to the terminal and post: 
-  (Ask for access to publish sending an email to [the account manager](mailto:cillassubira@mail.com) including your github username)
+  (Ask for access to publish sending an email to [the account manager](mailto:cillassubira@mail.com) including your github username) and then run:
+  
   ``` ruby end-posting.rb ```
 
   7. Let's check if everything worked properly! 
